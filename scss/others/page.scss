@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url("../img/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: $backgound-color;
+  width: 450px;
+  height: auto;
+}
+
+.topLogo {
+  width: 185px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.btnSend {
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover {
+    background-color: $button-color;
+    color: white;
+  }
+}
+
+footer {
+  margin-top: 180px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 460px) {
+  .container1 {
+    width: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .inputname {
+    font-size: 12px;
+  }
+}
